@@ -19,6 +19,7 @@ return {
       require("azure_pipelines")
     end,
     event = { "BufReadPre", "BufNewFile" },
+    ft = "yaml",
   },
 }
 ```
